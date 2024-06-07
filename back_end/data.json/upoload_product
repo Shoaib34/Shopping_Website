@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Blue T-Shirt",
+      "description": "Comfortable cotton t-shirt in blue color",
+      "price": 20,
+      "quantity": 15,
+      "createdAt": "2024-06-07T12:00:00.000Z"
+    },
+    {
+      "name": "Running Shoes",
+      "description": "High-performance running shoes for athletes",
+      "price": 80,
+      "quantity": 10,
+      "createdAt": "2024-06-07T12:00:00.000Z"
+    },
+    {
+      "name": "Wireless Headphones",
+      "description": "Bluetooth-enabled headphones with noise cancellation",
+      "price": 100,
+      "quantity": 8,
+      "createdAt": "2024-06-07T12:00:00.000Z"
+    },
+    {
+      "name": "Leather Wallet",
+      "description": "Genuine leather wallet with multiple card slots",
+      "price": 50,
+      "quantity": 20,
+      "createdAt": "2024-06-07T12:00:00.000Z"
+    },
+    {
+      "name": "Coffee Mug",
+      "description": "Ceramic coffee mug with a stylish design",
+      "price": 10,
+      "quantity": 25,
+      "createdAt": "2024-06-07T12:00:00.000Z"
+    }
+  ]
+  
