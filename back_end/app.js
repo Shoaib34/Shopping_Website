@@ -22,3 +22,23 @@ app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
 });
   
+
+
+
+// Connect to MongoDB using Mongoose
+// Import the Mongoose library
+const mongoose = require('mongoose');
+
+// Connect to the MongoDB database
+mongoose.connect('mongodb://localhost:27018/myDatabase')
+    .then(() => {
+        console.log('Connected to MongoDB');
+    })
+    .catch((error) => {
+        console.error('Error connecting to MongoDB:', error);
+    });
+
+
+
+// Export the Express app instance for external use (if needed)
+module.exports = app;
